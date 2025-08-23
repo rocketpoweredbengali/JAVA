@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class TemperatureConversion {
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         double celsius, fahrenheit;
         Scanner scanner = new Scanner(System.in);
